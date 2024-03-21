@@ -72,3 +72,18 @@ button{
 #header-img{
   width: 60px;
 }
+.header2{
+  background-color: white;
+}
+.header3{
+  background-color: #e5e7eb;
+}
+.header4{
+  background-color: white;
+}
+.container-blue{
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
