@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: "Roboto",sans-serif;
 }
 
 .header{
@@ -11,21 +12,27 @@
   
 }
 
-.headertop{
+.logo-container{
   display: flex;
-  align-items: flex-end;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 155px;
+  margin-right: 155px;
+  padding-top: 15px;
 }
+
+.list-text{
+  flex-flow: row;
+}
+
 
 ul{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   list-style-type: none;  
   gap: 16px;
-  align-items: flex-end;
-  margin: 0;
-  padding: 0;
 }
 
 .container1{
@@ -45,27 +52,24 @@ a{
   color: #f9fafb;
 
 }
-
-.titlesub{
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
 .headerbody{
   display: flex;
-  margin-left: 100px;
-  justify-content: space-around;
+  margin-left: 125px;
+  margin-right: 110px;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 .img{
   max-height: 200px;
-  margin-left: 44px;
+  margin-top: 80px;
 }
 
 button{
   background-color: #3882f6;
   color: white;
-  padding: 5px 20px;
+ width: 75px;
+ height: 25px;
   border-radius: 8px;
 }
 
@@ -74,15 +78,62 @@ button{
 }
 .header2{
   background-color: white;
+  padding: 50px;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ flex-direction: column; 
+ 
+}
+.trueno{
+  text-align: center;
+
+}
+.games{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.text-mago{
+text-align: center;
+}
+
+.supp{
+  object-fit: cover;
+  border-radius: 10px;
+  border: #3882f6 solid 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.tex-img{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+.t1{
+  align-self: center;
+  text-align: center;
 }
 .header3{
   background-color: #e5e7eb;
   height: 380px;
-}
-.container3{
-  display: flex;
-  display: flex;
   justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+h2{
+  color: #1f2937;
+  font-size: 36px;
+}
+h3{
+  
+  font-size: 36px;
+  margin-left: 150px;
 }
  
 .header4{
@@ -94,6 +145,9 @@ button{
   border-radius: 10px;
   padding: 50px;
   margin: 10px;
+  display: flex;
+  gap: 200px;
+  justify-content: space-around;
 }
 .header5{
   background-color: #1f2837;
@@ -105,15 +159,47 @@ button{
   padding: auto;
 }
 .button-1{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   height: 20px;
+  align-self: center;
 }
 .text-blue{
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+.p2{
+  color: white;
+}
+.title-champions{
+text-align: left;
+margin: 0;
+}
+.title{
+display: flex;
+}
+.sing-up{
+  border:white solid 2px;
+  border-radius: 5px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.titulo{
+margin-top: 80px;
+font-size: 48px;
+}
 
+.letras{
+  text-decoration: #E5E7EB;
+ font-size: 18px;
+}
+
+.tacos{
+  font-style: italic;
+}
