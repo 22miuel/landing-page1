@@ -23,7 +23,7 @@ ul{
   display: flex;
   list-style-type: none;  
   gap: 16px;
-  align-items: flex-start;
+  align-items: flex-end;
   margin: 0;
   padding: 0;
 }
@@ -77,13 +77,43 @@ button{
 }
 .header3{
   background-color: #e5e7eb;
+  height: 380px;
 }
+.container3{
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+ 
 .header4{
   background-color: white;
+  padding: 90px;
 }
 .container-blue{
   background-color: #3882f6;
   border-radius: 10px;
-  padding: 10px;
+  padding: 50px;
   margin: 10px;
 }
+.header5{
+  background-color: #1f2837;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  display: flex;
+  padding: auto;
+}
+.button-1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+}
+.text-blue{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
